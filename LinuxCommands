@@ -1,0 +1,71 @@
+# Basic Commands
+ls - List directory contents
+cd - Change directory
+pwd - Print working directory
+mkdir - Create a new directory
+rmdir - Remove a directory
+cp - Copy files or directories
+mv - Move or rename files or directories
+rm - Remove files or directories
+
+# File and Directory Permissions
+chmod - Change file modes or Access Control Lists
+chown - Change file owner and group
+
+# File Viewing and Editing
+cat - Concatenate and display files
+more - View file contents page by page
+less - View file contents page by page with backward movement
+head - Output the first part of files
+tail - Output the last part of files
+nano - Simple text editor
+vim - Advanced text editor
+
+# System Monitoring
+top - Display Linux tasks
+htop - Interactive process viewer
+df - Report file system disk space usage
+du - Estimate file space usage
+free - Display amount of free and used memory
+ps - Report process status
+
+# Networking
+ping - Send ICMP ECHO_REQUEST to network hosts
+ifconfig - Configure network interfaces
+netstat - Print network connections, routing tables, interface statistics
+wget - Non-interactive network downloader
+curl - Transfer data from or to a server
+
+# Package Management (Debian-based)
+apt-get - APT package handling utility
+apt-cache - Query the APT cache
+dpkg - Debian package manager
+
+# Package Management (RPM-based)
+yum - Package manager for RPM-based distributions
+rpm - RPM package manager
+
+# Search and Find
+grep - Search text using patterns
+find - Search for files in a directory hierarchy
+locate - Find files by name
+
+# Compression and Archiving
+tar - Archive files
+gzip - Compress files
+gunzip - Decompress files
+zip - Package and compress files
+unzip - Extract compressed files
+
+# Disk Management
+fdisk - Partition table manipulator for Linux
+mkfs - Build a Linux file system
+mount - Mount a file system
+umount - Unmount file systems
+
+# Miscellaneous
+echo - Display a line of text
+date - Display or set the system date and time
+history - Command history
+man - An interface to the system reference manuals
+
