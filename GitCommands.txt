@@ -1,0 +1,71 @@
+# Check the status of the repository (shows modified/untracked files)
+git status
+
+# Clone an existing repository from GitHub
+git clone <URL>
+
+# Add a specific file to the staging area
+git add <file-name>
+
+# Add all modified and new files to the staging area
+git add .
+
+# Commit with a message
+git commit -m "Commit message"
+
+# View commit history
+git log
+
+# Push changes to the remote repository (to main branch)
+git push origin main
+
+# Pull the latest changes from the remote repository
+git pull origin main
+
+# Create a new branch
+git checkout -b <branch-name>
+
+# Switch to an existing branch
+git checkout <branch-name>
+
+# Merge a branch into the current branch
+git merge <branch-name>
+
+# Delete a branch locally
+git branch -d <branch-name>
+
+# View all branches
+git branch
+
+# Stash uncommitted changes
+git stash
+
+# Apply stashed changes
+git stash apply
+
+# Remove the last stashed change
+git stash drop
+
+# View remote repositories
+git remote -v
+
+# Remove a remote repository
+git remote remove <remote-name>
+
+# Rename a branch
+git branch -m <new-branch-name>
+
+# Check the differences between staged and last commit
+git diff --staged
+
+# Undo the last commit (but keep the changes)
+git reset --soft HEAD^
+
+# Undo the last commit (and remove the changes)
+git reset --hard HEAD^
+
+# Revert a specific commit (by commit hash)
+git revert <commit-hash>
+
+# Force push (use cautiously)
+git push origin <branch-name> --force
